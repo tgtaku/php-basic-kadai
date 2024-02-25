@@ -12,8 +12,8 @@
         // クラスを定義する
         class Food {
             // プロパティを定義する
-            public $name;
-            public $price;
+            private $name;
+            private $price;
 
             // コンストラクタを定義する
             public function __construct(string $name, int $price) {
@@ -29,9 +29,9 @@
 
         class Animal {
             // プロパティを定義する
-            public $name;
-            public $height;
-            public $weight;
+            private $name;
+            private $height;
+            private $weight;
 
             // コンストラクタを定義する
             public function __construct(string $name, int $height, int $weight) {
